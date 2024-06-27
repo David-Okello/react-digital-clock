@@ -3,20 +3,20 @@ import DigitalClock from "./DigitalClock";
 
 function App() {
   const [backgroundImages, setBackgroundImages] = useState([
-    "/src/assets/background-image1.jpg",
-    "/src/assets/background-image2.jpg",
-    "/src/assets/background-image3.jpg",
-    "/src/assets/background-image4.jpg",
-    "/src/assets/background-image5.jpg",
-    "/src/assets/background-image6.jpg",
-    "/src/assets/background-image7.jpg",
-    "/src/assets/background-image8.jpg",
-    "/src/assets/background-image9.jpg",
-    "/src/assets/background-image10.jpg",
-    "/src/assets/background-image12.jpg",
-    "/src/assets/background-image13.jpg",
-    "/src/assets/background-image14.jpg",
-    "/src/assets/background-image15.jpg",
+    "/assets/background-image1.jpg",
+    "/assets/background-image2.jpg",
+    "/assets/background-image3.jpg",
+    "/assets/background-image4.jpg",
+    "/assets/background-image5.jpg",
+    "/assets/background-image6.jpg",
+    "/assets/background-image7.jpg",
+    "/assets/background-image8.jpg",
+    "/assets/background-image9.jpg",
+    "/assets/background-image10.jpg",
+    "/assets/background-image12.jpg",
+    "/assets/background-image13.jpg",
+    "/assets/background-image14.jpg",
+    "/assets/background-image15.jpg",
   ]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
