@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function DigitalClock({ backgroundImage }) {
+function DigitalClock() {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -14,12 +14,10 @@ function DigitalClock({ backgroundImage }) {
   }, []);
 
   return (
-    <div>
-      <div className="blur-filter">
-        <span className="font-bold text-slate-300 text-9xl font-mono p-3">
-          {time.toLocaleTimeString()}
-        </span>
-      </div>
+    <div className="blur-filter p-2 md:p-4 lg:p-6">
+      <span className="font-bold text-slate-300 text-4xl md:text-6xl lg:text-9xl font-mono p-3">
+        {time.toLocaleTimeString()}
+      </span>
     </div>
   );
 }

@@ -39,17 +39,15 @@ function App() {
   }, [backgroundImages, nextIndex]);
 
   return (
-    <>
-      <div
-        className="bg-cover bg-center min-h-screen flex flex-col justify-center items-center transition-opacity duration-1000"
-        style={{
-          backgroundImage: `url(${backgroundImages[currentIndex]})`,
-          opacity: opacity,
-        }}
-      >
-        <DigitalClock />
-      </div>
-    </>
+    <div
+      className="bg-cover bg-center min-h-screen flex flex-col justify-center items-center transition-opacity duration-1000"
+      style={{
+        backgroundImage: `url(${backgroundImages[currentIndex]})`,
+        opacity: opacity,
+      }}
+    >
+      <DigitalClock />
+    </div>
   );
 }
 
